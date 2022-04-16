@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/instagran-initial/static/css/main.5129b42b.css",
+    "main.js": "/instagran-initial/static/js/main.4de50c64.js",
+    "static/js/787.1ff25e38.chunk.js": "/instagran-initial/static/js/787.1ff25e38.chunk.js",
+    "index.html": "/instagran-initial/index.html",
+    "main.5129b42b.css.map": "/instagran-initial/static/css/main.5129b42b.css.map",
+    "main.4de50c64.js.map": "/instagran-initial/static/js/main.4de50c64.js.map",
+    "787.1ff25e38.chunk.js.map": "/instagran-initial/static/js/787.1ff25e38.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5129b42b.css",
+    "static/js/main.4de50c64.js"
+  ]
+}
