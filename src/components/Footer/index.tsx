@@ -33,6 +33,8 @@ export function Footer() {
           <ListItem>Hashtags</ListItem>
           <ListItem>Localizações</ListItem>
           <ListItem>Instagram Lite</ListItem>
+        </FooterLister>
+        <FooterLister>
           <ListItem>Dança</ListItem>
           <ListItem>Comida e bebida</ListItem>
           <ListItem>Casa e jardim</ListItem>

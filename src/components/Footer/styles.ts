@@ -1,12 +1,19 @@
 import styled from 'styled-components';
 
 export const FooterContainer = styled.footer`
+  align-items: center;
   color: #8e8e8e;
+  display: flex;
+  justify-content: center;
   margin-bottom: 52px;
+  padding: 0 16px;
   width: 100%;
 `;
 
 export const Container = styled.div`
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   max-width: 1000px;
   width: 100%;
 `;
@@ -19,9 +26,14 @@ export const FooterLister = styled.ul`
   justify-content: center;
   line-height: 16px;
   list-style-type: none;
-  margin: 0 auto;
   max-width: 300px;
+  padding: 0 10px;
   width: 100%;
+
+  & + ul {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
 `;
 
 export const ListItem = styled.li`

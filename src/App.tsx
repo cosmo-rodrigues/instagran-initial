@@ -1,17 +1,15 @@
-import './App.css';
 import { Footer } from './components/Footer';
-import { Logon } from './components/Logon';
+import { Logged } from './components/Logged';
+import { AppContainer, Main } from './styles';
 
 function App() {
   return (
-    <div className='App'>
-      <main>
-        <div className='content'>
-          <Logon />
-        </div>
-      </main>
+    <AppContainer>
+      <Main>
+        <Logged />
+      </Main>
       <Footer />
-    </div>
+    </AppContainer>
   );
 }
 
