@@ -15,6 +15,7 @@ export const SectionContainer = styled.section`
     margin-top: 8vh;
     max-height: 400px;
     max-width: 350px;
+    padding: 10px 5px;
   }
 `;
 
@@ -39,20 +40,20 @@ export const ContinueButton = styled.button`
   color: #fff;
   font-size: 14px;
   font-weight: 600;
-  height: 50px;
+  height: 30px;
   line-height: 18px;
   margin: 16px auto;
-  padding: 7px 20px;
-  width: 255px;
+  outline: none;
+  width: 245px;
 `;
 
 export const ChangeAccountButton = styled.button`
   background-color: transparent;
   border: 1px solid transparent;
   color: #0095f6;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
-  line-height: 18px;
+  line-height: 14px;
 `;
 
 export const InfoContainer = styled.div`

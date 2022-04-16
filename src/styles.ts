@@ -7,13 +7,14 @@ export const AppContainer = styled.div`
   flex: 1;
   flex-direction: column;
   height: 100%;
+  padding-top: 40px;
   width: 100%;
 `;
 
 export const Main = styled.main`
   align-items: center;
   display: flex;
-  flex: 1;
-  flex-direction: column;
+  justify-content: center;
+  max-height: 700px;
   width: 100%;
 `;

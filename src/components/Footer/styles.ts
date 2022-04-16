@@ -10,6 +10,10 @@ export const FooterContainer = styled.footer`
   position: absolute;
   bottom: 0;
   width: 100%;
+
+  @media (min-width: 850px) {
+    margin-bottom: 0;
+  }
 `;
 
 export const Container = styled.div`
@@ -33,7 +37,6 @@ export const FooterLister = styled.ul`
   width: 100%;
 
   & + ul {
-    margin-bottom: 20px;
     margin-top: 10px;
   }
 
@@ -71,6 +74,7 @@ export const OptionItem = styled.option`
   font-weight: normal;
   display: block;
   white-space: nowrap;
+  margin-bottom: 30px;
   min-height: 1.2em;
   padding: 0px 2px 1px;
 `;
