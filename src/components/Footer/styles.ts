@@ -20,7 +20,6 @@ export const Container = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
-  max-width: 1000px;
   width: 100%;
 `;
 

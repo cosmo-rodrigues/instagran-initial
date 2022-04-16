@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Carrousel } from './components/Carrousel';
 import { Footer } from './components/Footer';
 import { Logged } from './components/Logged';
 import { useWindowSize } from './hooks/useWindowSize';
@@ -18,11 +19,7 @@ function App() {
   return (
     <AppContainer>
       <Main>
-        {showCellphoneImage && (
-          <figure>
-            <img height={580} src='./images/phones.png' alt='Cellphone' />
-          </figure>
-        )}
+        {showCellphoneImage && <Carrousel />}
         <Logged />
       </Main>
       <Footer />
