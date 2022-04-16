@@ -7,6 +7,8 @@ export const FooterContainer = styled.footer`
   justify-content: center;
   margin-bottom: 52px;
   padding: 0 16px;
+  position: absolute;
+  bottom: 0;
   width: 100%;
 `;
 
@@ -24,7 +26,7 @@ export const FooterLister = styled.ul`
   font-size: 12px;
   flex-wrap: wrap;
   justify-content: center;
-  line-height: 16px;
+  line-height: 20px;
   list-style-type: none;
   max-width: 300px;
   padding: 0 10px;
@@ -33,6 +35,11 @@ export const FooterLister = styled.ul`
   & + ul {
     margin-bottom: 20px;
     margin-top: 10px;
+  }
+
+  @media (min-width: 450px) {
+    width: 100%;
+    max-width: 100vw;
   }
 `;
 

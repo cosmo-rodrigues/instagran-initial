@@ -7,6 +7,15 @@ export const SectionContainer = styled.section`
   justify-content: center;
   padding: 50px 5px;
   width: 100%;
+
+  @media (min-width: 450px) {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-bottom: 8vh;
+    margin-top: 8vh;
+    max-height: 400px;
+    max-width: 350px;
+  }
 `;
 
 export const LogoFigure = styled.figure`
@@ -30,10 +39,11 @@ export const ContinueButton = styled.button`
   color: #fff;
   font-size: 14px;
   font-weight: 600;
-  height: 30px;
+  height: 50px;
   line-height: 18px;
   margin: 16px auto;
-  min-width: 230px;
+  padding: 7px 20px;
+  width: 255px;
 `;
 
 export const ChangeAccountButton = styled.button`
@@ -47,4 +57,14 @@ export const ChangeAccountButton = styled.button`
 
 export const InfoContainer = styled.div`
   text-align: center;
+
+  @media (min-width: 450px) {
+    align-items: baseline;
+    display: flex;
+    justify-content: center;
+
+    p {
+      margin-right: 5px;
+    }
+  }
 `;
