@@ -1,13 +1,13 @@
 import './App.css';
 import { Footer } from './components/Footer';
+import { Logon } from './components/Logon';
 
 function App() {
   return (
     <div className='App'>
       <main>
         <div className='content'>
-          <section className='phoneSide'></section>
-          <section className='userSide'></section>
+          <Logon />
         </div>
       </main>
       <Footer />
